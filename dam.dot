@@ -1,0 +1,228 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="luas_rumah
+", weight=1]
+"1" [shape=box, style=filled, label="kamar_mandi
+", weight=2]
+0 -> 1 [ label = "<=2258.50"];
+"2" [shape=box, style=filled, label="kondisi
+", weight=3]
+1 -> 2 [ label = "<=1.88"];
+"3" [shape=box, style=filled, label="kamar
+", weight=4]
+2 -> 3 [ label = "<=3.50"];
+"4" [shape=box, style=filled, label="lantai
+", weight=5]
+3 -> 4 [ label = "<=2.50"];
+"5" [shape=box, style=filled, label="235000.0
+(6/252)
+", weight=6]
+4 -> 5 [ label = "<=1.50"];
+"6" [shape=box, style=filled, label="250000.0
+(2/31)
+", weight=6]
+4 -> 6 [ label = ">1.50"];
+"7" [shape=box, style=filled, label="lantai
+", weight=5]
+3 -> 7 [ label = ">2.50"];
+"8" [shape=box, style=filled, label="300000.0
+(7/623)
+", weight=6]
+7 -> 8 [ label = "<=1.50"];
+"9" [shape=box, style=filled, label="440000.0
+(3/44)
+", weight=6]
+7 -> 9 [ label = ">1.50"];
+"10" [shape=box, style=filled, label="kamar
+", weight=4]
+2 -> 10 [ label = ">3.50"];
+"11" [shape=box, style=filled, label="lantai
+", weight=5]
+10 -> 11 [ label = "<=2.50"];
+"12" [shape=box, style=filled, label="355000.0
+(4/154)
+", weight=6]
+11 -> 12 [ label = "<=1.50"];
+"13" [shape=box, style=filled, label="229800.0
+(1/24)
+", weight=6]
+11 -> 13 [ label = ">1.50"];
+"14" [shape=box, style=filled, label="lantai
+", weight=5]
+10 -> 14 [ label = ">2.50"];
+"15" [shape=box, style=filled, label="235000.0
+(6/374)
+", weight=6]
+14 -> 15 [ label = "<=1.50"];
+"16" [shape=box, style=filled, label="148612.5
+(1/26)
+", weight=6]
+14 -> 16 [ label = ">1.50"];
+"17" [shape=box, style=filled, label="lantai
+", weight=3]
+1 -> 17 [ label = ">1.88"];
+"18" [shape=box, style=filled, label="kamar
+", weight=4]
+17 -> 18 [ label = "<=1.50"];
+"19" [shape=box, style=filled, label="kondisi
+", weight=5]
+18 -> 19 [ label = "<=3.50"];
+"20" [shape=box, style=filled, label="425000.0
+(5/224)
+", weight=6]
+19 -> 20 [ label = "<=3.50"];
+"21" [shape=box, style=filled, label="332000.0
+(3/121)
+", weight=6]
+19 -> 21 [ label = ">3.50"];
+"22" [shape=box, style=filled, label="kondisi
+", weight=5]
+18 -> 22 [ label = ">3.50"];
+"23" [shape=box, style=filled, label="335000.0
+(4/170)
+", weight=6]
+22 -> 23 [ label = "<=3.50"];
+"24" [shape=box, style=filled, label="415000.0
+(3/75)
+", weight=6]
+22 -> 24 [ label = ">3.50"];
+"25" [shape=box, style=filled, label="kamar
+", weight=4]
+17 -> 25 [ label = ">1.50"];
+"26" [shape=box, style=filled, label="kondisi
+", weight=5]
+25 -> 26 [ label = "<=3.50"];
+"27" [shape=box, style=filled, label="535000.0
+(6/332)
+", weight=6]
+26 -> 27 [ label = "<=3.50"];
+"28" [shape=box, style=filled, label="330000.0
+(3/157)
+", weight=6]
+26 -> 28 [ label = ">3.50"];
+"29" [shape=box, style=filled, label="kondisi
+", weight=5]
+25 -> 29 [ label = ">3.50"];
+"30" [shape=box, style=filled, label="260000.0
+(4/113)
+", weight=6]
+29 -> 30 [ label = "<=3.50"];
+"31" [shape=box, style=filled, label="337000.0
+(2/64)
+", weight=6]
+29 -> 31 [ label = ">3.50"];
+"32" [shape=box, style=filled, label="kamar_mandi
+", weight=2]
+0 -> 32 [ label = ">2258.50"];
+"33" [shape=box, style=filled, label="lantai
+", weight=3]
+32 -> 33 [ label = "<=2.62"];
+"34" [shape=box, style=filled, label="kamar
+", weight=4]
+33 -> 34 [ label = "<=1.50"];
+"35" [shape=box, style=filled, label="kondisi
+", weight=5]
+34 -> 35 [ label = "<=3.50"];
+"36" [shape=box, style=filled, label="625000.0
+(3/94)
+", weight=6]
+35 -> 36 [ label = "<=3.50"];
+"37" [shape=box, style=filled, label="600000.0
+(2/43)
+", weight=6]
+35 -> 37 [ label = ">3.50"];
+"38" [shape=box, style=filled, label="kondisi
+", weight=5]
+34 -> 38 [ label = ">3.50"];
+"39" [shape=box, style=filled, label="330000.0
+(2/126)
+", weight=6]
+38 -> 39 [ label = "<=3.50"];
+"40" [shape=box, style=filled, label="350000.0
+(2/87)
+", weight=6]
+38 -> 40 [ label = ">3.50"];
+"41" [shape=box, style=filled, label="kondisi
+", weight=4]
+33 -> 41 [ label = ">1.50"];
+"42" [shape=box, style=filled, label="kamar
+", weight=5]
+41 -> 42 [ label = "<=3.50"];
+"43" [shape=box, style=filled, label="600000.0
+(3/130)
+", weight=6]
+42 -> 43 [ label = "<=3.50"];
+"44" [shape=box, style=filled, label="675000.0
+(5/277)
+", weight=6]
+42 -> 44 [ label = ">3.50"];
+"45" [shape=box, style=filled, label="kamar
+", weight=5]
+41 -> 45 [ label = ">3.50"];
+"46" [shape=box, style=filled, label="695000.0
+(3/66)
+", weight=6]
+45 -> 46 [ label = "<=3.50"];
+"47" [shape=box, style=filled, label="720000.0
+(4/153)
+", weight=6]
+45 -> 47 [ label = ">3.50"];
+"48" [shape=box, style=filled, label="kondisi
+", weight=3]
+32 -> 48 [ label = ">2.62"];
+"49" [shape=box, style=filled, label="kamar
+", weight=4]
+48 -> 49 [ label = "<=3.50"];
+"50" [shape=box, style=filled, label="lantai
+", weight=5]
+49 -> 50 [ label = "<=4.50"];
+"51" [shape=box, style=filled, label="610000.0
+(3/74)
+", weight=6]
+50 -> 51 [ label = "<=1.50"];
+"52" [shape=box, style=filled, label="1050000.0
+(5/209)
+", weight=6]
+50 -> 52 [ label = ">1.50"];
+"53" [shape=box, style=filled, label="lantai
+", weight=5]
+49 -> 53 [ label = ">4.50"];
+"54" [shape=box, style=filled, label="292050.0
+(1/35)
+", weight=6]
+53 -> 54 [ label = "<=1.50"];
+"55" [shape=box, style=filled, label="500000.0
+(2/90)
+", weight=6]
+53 -> 55 [ label = ">1.50"];
+"56" [shape=box, style=filled, label="kamar
+", weight=4]
+48 -> 56 [ label = ">3.50"];
+"57" [shape=box, style=filled, label="lantai
+", weight=5]
+56 -> 57 [ label = "<=4.50"];
+"58" [shape=box, style=filled, label="750000.0
+(2/46)
+", weight=6]
+57 -> 58 [ label = "<=1.50"];
+"59" [shape=box, style=filled, label="530000.0
+(2/140)
+", weight=6]
+57 -> 59 [ label = ">1.50"];
+"60" [shape=box, style=filled, label="lantai
+", weight=5]
+56 -> 60 [ label = ">4.50"];
+"61" [shape=box, style=filled, label="480000.0
+(2/37)
+", weight=6]
+60 -> 61 [ label = "<=1.50"];
+"62" [shape=box, style=filled, label="1240000.0
+(3/54)
+", weight=6]
+60 -> 62 [ label = ">1.50"];
+{rank=same; 0;};
+{rank=same; 1;32;};
+{rank=same; 2;17;33;48;};
+{rank=same; 3;10;18;25;34;41;49;56;};
+{rank=same; 4;7;11;14;19;22;26;29;35;38;42;45;50;53;57;60;};
+{rank=same; 5;6;8;9;12;13;15;16;20;21;23;24;27;28;30;31;36;37;39;40;43;44;46;47;51;52;54;55;58;59;61;62;};
+}
